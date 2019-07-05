@@ -3,6 +3,8 @@ import "./projects.css";
 
 import ProjectsCard from "../project-cards/Project-cards";
 
+// import Contact from "../contact/Contact";
+
 class Projects extends React.Component {
   constructor(props) {
     super(props);
@@ -23,6 +25,7 @@ class Projects extends React.Component {
     return (
       <div className="project-box">
         <ProjectsCard />
+        {/* <Contact /> */}
       </div>
     );
   }
