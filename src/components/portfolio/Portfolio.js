@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import myImage from "../portfolio/download.jpeg";
+import Projects from "../projects/Projects";
 
 class Portfolio extends React.Component {
   constructor(props) {
@@ -48,8 +49,8 @@ class Portfolio extends React.Component {
           </div>
         </div>
 
-        <div className="projects">
-          <h1>React :D</h1>
+        <div className="project">
+          <Projects />
         </div>
       </div>
     );
